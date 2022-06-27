@@ -1,0 +1,164 @@
+body {
+  text-align: center;
+  background-color: rgb(255, 238, 217);
+  color: rgb(255, 140, 0);
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Header h1 {
+  background-color: #c5733d;
+  color: #fff;
+  padding: 30px;
+  height: 100%;
+  font-family: 'Times New Roman', Times, serif;
+}
+.navigation {
+  background-color: #944d1e;
+  font-family: 'Times New Roman', Times, serif;
+  overflow: hidden;
+  border-top: solid;
+  border-bottom: double;
+}
+.navigation li {
+  padding: 20px;
+}
+.navigation a{
+  color: rgb(245, 206, 170);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+  display: inline;
+  padding: 60px;
+}
+.ChartBoard {
+  margin: 50px;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 50px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+.ChartStudents {
+  padding: 15px;
+  background-color: #944d1e;
+  border: 1px double #fe6600;
+  border-radius: 50px;
+  margin: 50px;
+  color: #fff;
+
+}
+.BarChart {
+  margin-bottom: 20px;
+  border: 1px dotted #944d1e;
+  border-radius: 50px;
+  margin: 50px;
+  justify-content: center;
+}
+.ProfileList {
+  
+  padding: 20px;
+  color: #fff;
+  list-style: none;
+  
+}
+.ProfileList li {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 30px;
+  margin: 2px;
+  padding: 20px;
+  display: inline-block;
+  width: 40%;
+  background-color: #282c34;
+}
+.ProfileList li:hover {
+  background-color: rgb(146, 14, 14);
+  cursor: pointer;
+}
+.ProfileList a {
+  text-decoration: none;
+  color: rgb(137, 129, 129);
+  display: block;
+}
+.ProfileList a:hover {
+  color: antiquewhite;
+}
+.ChartBoard {
+  color: #fff;
+}
+.TheInput {
+  padding-top: 15px;
+  color: #ec8714;
+}
+.TheChartInfo {
+  padding: 7px;
+  background-color: #564133;
+  border-radius: 0px 0px 5px 5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.TheChartInfo .boxDifficult::before {
+    content: "";
+    display: inline-block;
+    background-color: #ec9587;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+.TheChartInfo .boxFun::before {
+  content: "";
+  display: inline-block;
+  background-color: #db5743;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+.TheChartInfo p {
+  display: inline;
+  padding: 30px;
+}
+h4 {
+  color: #ffdfca;
+  font-family: 'Times New Roman', Times, serif;
+}
+.Overview {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #564133;
+  font-size: 15px;
+  padding-top: 20px;
+}
+.ChartLinks h1 {
+  color: #355633;
+  padding-top: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
