@@ -1,8 +1,10 @@
 import React from "react";
 
 const TheInput = (props) => {
-    const handleTheInput = (e) => {
-        props.selectChange(props.selectName, e.target.checked)
+    const handleTheInput = (event) => {
+         console.log(event.target.checked)
+         console.log(props.selectName)
+        props.selectChange(props.selectName, event.target.checked)
     }
 
 return (

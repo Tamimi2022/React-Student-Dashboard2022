@@ -162,3 +162,7 @@ h4 {
   padding-top: 25px;
   font-family: 'Times New Roman', Times, serif;
 }
+h6 {
+  color: rgb(114, 255, 107);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

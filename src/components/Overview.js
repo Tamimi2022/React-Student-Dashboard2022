@@ -69,8 +69,8 @@ class Overview extends React.Component {
                     id: filterItemId++,
                     name: 'average',
                     assignment: profileItem.assignment,
-                    difficultyRating: averageDifficult,
-                    enjoymentRating: averageFun
+                    difficult: averageDifficult,
+                    fun: averageFun
                 })
             }
         })

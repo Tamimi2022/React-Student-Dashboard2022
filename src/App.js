@@ -9,9 +9,9 @@ import data from './components/StudentData';
 
 console.log(data)
 
-const ChartDashboard = (myData, weekly) => {
+const ChartDashboard = (myData, filter) => {
   return myData.filter(item => {
-    return item.assignment.includes(weekly)
+    return item.assignment.includes(filter)
   })
 }
 
@@ -43,7 +43,7 @@ function App() {
           </li>
         </ul>
       </nav>
-
+    
       <main>
         <Switch>
           <Route path="/Profiles/Student/:name"
