@@ -130,7 +130,7 @@ li {
 .TheChartInfo .boxDifficult::before {
     content: "";
     display: inline-block;
-    background-color: #ec9587;
+    background-color: green;
     width: 10px;
     height: 10px;
     margin-right: 5px;
