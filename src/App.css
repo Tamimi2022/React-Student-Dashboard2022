@@ -166,3 +166,12 @@ h6 {
   color: rgb(114, 255, 107);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.navigation li:hover {
+  border: outset;
+  border-radius: 20px;
+}
+.navigation a:hover {
+  color: #fff;
+  font-style: initial;
+  font-size: 15px;
+}
