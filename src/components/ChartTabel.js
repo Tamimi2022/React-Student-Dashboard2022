@@ -33,7 +33,7 @@ class ChartTabel extends React.Component {
                     />
                     <VictoryLine
                         style={{
-                            data: { stroke: "#fbae94" },
+                            data: { stroke: "green" },
                             parent: { border: "1px solid #fff" }
                         }}
                         data={this.props.averageStudent}
